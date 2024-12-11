@@ -6,6 +6,9 @@ Truy cập liên kết này để đóng góp vào Nexus zkVM: https://beta.nexu
 
 
 ## Phương pháp 2: Linux Server
+
+- Xem hướng dẫn cài Linux trên Windows: https://github.com/freeman291187/Nexus/blob/huongdan_nexus/cai_linux_tren_windows
+
 **1. Cài đặt Dependecies**
 ```console
 sudo apt update && sudo apt upgrade -y
