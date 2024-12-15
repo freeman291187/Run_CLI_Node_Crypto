@@ -6,7 +6,7 @@
 ## 1. Binaries:
 - Đi đến [binaries](https://github.com/hemilabs/heminetwork/releases)
 - Tải tệp có dạng  **......_linux_amd64.tar.gz** phiên bản mới nhất về.
-- Copy tệp này vào máy chủ inux 
+- Copy tệp này vào máy chủ Linux 
 
 - Bây giờ bắt đầu các dòng lệnh
 ```bash
