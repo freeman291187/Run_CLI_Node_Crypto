@@ -1,7 +1,7 @@
 # Hemi Network Miner by @freeman291187
 ---
 - Tài liệu gốc - [Hemi_Miner_CLI](https://docs.hemi.xyz/how-to-tutorials/tutorials/setup-part-1)
-- Watch Video - [Youtube](https://)
+- Watch Video - [Youtube]([https://](https://youtu.be/Rn3dgKbh8IU))
 
 ## 1. Binaries:
 - Đi đến [binaries](https://github.com/hemilabs/heminetwork/releases)
