@@ -70,8 +70,8 @@ export POPM_STATIC_FEE=<fee_per_vB_integer>
 export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 ```
 3. Kiểm tra mức phí hiện tại : [Mempool](https://mempool.space/testnet)
-4. Nhìn vào số "**sat/vB**" numbers cho các mức ưu tiên phí giao dịch khác nhau. Nên đặt giá trị thành giá trị "High Priority-Ưu tiên cao" hoặc cao hơn một chút..
-5. Chạy lại lệnh **POPM_STATIC_FEE** để thiết lập  environment variable from above each time you want to change the fee, and restart the PoP Miner afterwards.
+4. Nhìn vào số "**sat/vB**" cho các mức ưu tiên phí giao dịch khác nhau. Nên đặt giá trị thành giá trị "High Priority-Ưu tiên cao" hoặc cao hơn một chút..
+5. Chạy lại lệnh **POPM_STATIC_FEE=** để thiết lập  thông số  chí và sau đó khởi động lại PoP Miner.
 
 ## 6. khởi chạy Miner
 ```bash
