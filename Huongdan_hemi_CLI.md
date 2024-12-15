@@ -5,7 +5,7 @@
 
 ## 1. Binaries:
 - Đi đến [binaries](https://github.com/hemilabs/heminetwork/releases)
-- Tài tệp có dạng_linux_amd64.tar.gz) phiên bản mới nhất về.
+- Tải tệp có dạng  ......_linux_amd64.tar.gz) phiên bản mới nhất về.
 - Copy tệp này vào máy chủ inux 
 
 - Bây giờ bắt đầu các dòng lệnh
