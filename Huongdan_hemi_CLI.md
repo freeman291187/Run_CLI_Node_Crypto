@@ -4,7 +4,7 @@
 - Watch Video - [Youtube](https://)
 
 ## 1. Binaries:
-- Visit [binaries](https://github.com/hemilabs/heminetwork/releases)
+- Đi đến [binaries](https://github.com/hemilabs/heminetwork/releases)
 - Tài tệp có dạng_linux_amd64.tar.gz) phiên bản mới nhất về.
 - Copy tệp này vào máy chủ inux 
 
