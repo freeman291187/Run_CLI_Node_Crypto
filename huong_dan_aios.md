@@ -45,12 +45,12 @@ aios-cli start
 ### Bước 6: Thoát khỏi screen
 Nhấn tổ hợp phím `Ctrl + A + D` để thoát khỏi phiên screen mà không dừng node đang chạy.
 
-### Bước 7: Kiểm tra các model khả dụng (Tùy chọn có thể bỏ qua)
+### Bước 7: Kiểm tra các model khả dụng (Tùy chọn này có thể bỏ qua)
 ```bash
 aios-cli models available
 ```
 
-### Bước 8: Thêm model
+### Bước 8: Thêm model - Chỉ 1 Model bên dưới là đủ.
 ```bash
 aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 ```
