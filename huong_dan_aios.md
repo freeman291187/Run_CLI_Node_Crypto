@@ -19,6 +19,11 @@ Chạy lần lượt các lệnh sau:
 curl https://download.hyper.space/api/install | bash
 ```
 
+### Bước 1.1: Xoá Hyperspace nếu cần
+```bash
+curl https://download.hyper.space/api/uninstall | bash
+```
+
 ### Bước 2: Tải lại cấu hình bash
 ```bash
 source /root/.bashrc
