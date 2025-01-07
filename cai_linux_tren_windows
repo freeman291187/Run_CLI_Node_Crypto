@@ -1,1 +1,13 @@
 Xem hướng dẫn tại đây: https://learn.microsoft.com/vi-vn/windows/wsl/install-manual
+
+
+
+
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
+
+
+wsl --uninstall
+wsl --install -d Ubuntu-24.04
+wsl --install -d Ubuntu-20.04
+wsl --install -d Ubuntu
