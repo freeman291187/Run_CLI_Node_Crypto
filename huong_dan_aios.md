@@ -91,6 +91,10 @@ aios-cli hive points
 aios-cli status
 ```
 
+=====================================
+
+
+
 ## 5. Khắc phục sự cố
 
 Nếu node dừng hoặc gặp lỗi:
@@ -109,7 +113,27 @@ aios-cli start
 ### Bước 3: Thoát khỏi screen
 Nhấn tổ hợp phím `Ctrl + A + D` để thoát khỏi phiên screen.
 
-### Bước 4: Kết nối lại Hive
+### Bước 4: Nhập key để kết nối Hive
+```bash
+aios-cli hive import-keys ./key.pem
+```
+
+### Bước 5: Đăng nhập Hive
+```bash
+aios-cli hive login
+```
+
+### Bước 6: Kết nối với Hive
 ```bash
 aios-cli hive connect
+```
+
+### Bước 7: Kiểm tra điểm tích lũy
+```bash
+aios-cli hive points
+```
+
+### Bước 8: Kiểm tra trạng thái node
+```bash
+aios-cli status
 ```
