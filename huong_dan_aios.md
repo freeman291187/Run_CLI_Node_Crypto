@@ -97,7 +97,10 @@ aios-cli status
 
 ## 5. Khắc phục sự cố
 
-Nếu node dừng hoặc gặp lỗi:
+### Bước 0: Xoá Hyperspace nếu cần
+```bash
+curl https://download.hyper.space/api/uninstall | bash
+```
 
 ### Bước 1: Dừng node
 ```bash
