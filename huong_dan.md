@@ -1,3 +1,25 @@
+# Auto Click khi đỏ
+const button = document.querySelector('button[role="switch"]');
+function turnOn() { button.setAttribute('data-state', 'checked');
+    button.setAttribute('aria-checked', 'true');}
+button.addEventListener('click', () => {
+    const isChecked = button.getAttribute('data-state') === 'checked';
+    if (isChecked) {
+        // Chuyển sang trạng thái tắt
+        button.setAttribute('data-state', 'unchecked');
+        button.setAttribute('aria-checked', 'false');
+
+        // Sau 1 giây, tự động bật lại
+        setTimeout(turnOn, 1000);
+    }
+});
+// Kiểm tra định kỳ, nếu bị tắt thì bật lại
+setInterval(() => {
+    if (button.getAttribute('data-state') === 'unchecked') {
+        turnOn();
+    }
+}, 2000); // Kiểm tra mỗi 2 giây
+
 # Nexus Prover by @freeman291187
 
 ## Phương pháp 1: Web Browser
