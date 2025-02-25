@@ -1,4 +1,5 @@
 # Auto Click khi đỏ
+```console
 const button = document.querySelector('button[role="switch"]');
 function turnOn() { button.setAttribute('data-state', 'checked');
     button.setAttribute('aria-checked', 'true');}
@@ -19,7 +20,7 @@ setInterval(() => {
         turnOn();
     }
 }, 2000); // Kiểm tra mỗi 2 giây
-
+```
 # Nexus Prover by @freeman291187
 
 ## Phương pháp 1: Web Browser
