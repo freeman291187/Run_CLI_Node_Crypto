@@ -1,4 +1,4 @@
-**TENEO
+# TỰ KÍCH LẠI EXTENSION KHI DISCONNECT
 ```console
 (function autoClick() {
     // Sử dụng selector cho nút Connect Node
