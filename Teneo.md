@@ -1,3 +1,7 @@
+#Link:
+```console
+chrome-extension://emcclcoaglgcpoognfiggmhnhgabppkm/index.html
+```
 # TỰ KÍCH LẠI EXTENSION KHI DISCONNECT
 ```console
 (function autoClick() {
